@@ -1,0 +1,20 @@
+{
+  "name": "Iryna Ivasenko",
+  "speech": "My name is Irina. I'm beginner frontend developer.I'm active and inquisitive person, I often explore new things. That's why I tried to create a web-site some time ago. Of course, my first site was not very nice and user-friendly. But I liked this process, it impressed me.Now I continue to improve my development skills.",
+  "dateOfBirth": "26 May 1993",
+  "logoPath": "../assets/img/logo.jpg",
+  "location": "Chernihiv, Ukraine",
+  "tel": "+380938609750",
+  "email": "ivasenko.iren@gmail.com",
+  "skype": "irina_ivasenko",
+  "github": "https://github.com/ivasenko",
+  "linkedin": "https://www.linkedin.com/in/iryna-ivasenko-90ab50134/",
+  "facebook": "https://www.facebook.com/profile.php?id=100007794108367",
+  "skills": ["HTML5", "CSS3", "JavaScript", "Angular4", "ReactJS", "Redux", "jQuery", "Bootstrap", "Git", "SASS", "Webpack"],
+  "languages": ["Ukrainian", "English"],
+  "certifications": [
+    "Date of studying: April – July 2017; SoftServe IT Academy (Web UI)",
+    "Date of studying: November – December 2016; Logos IT Academy (Basics of Web UI)"
+  ],
+  "education": "Date of studying: 2010-2015; The National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute'; qualification: specialist’s degree in Law"
+}
