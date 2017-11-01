@@ -1,0 +1,15 @@
+@import "../../styles/common";
+
+.list-group-item{
+  margin-bottom:5px;
+}
+.list-group-item-heading{
+  font-weight: 600;
+}
+.img-responsive{
+  max-width: 80px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+  background: $main-bg-color;
+  border-color: $main-bg-color;
+}

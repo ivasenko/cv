@@ -1,0 +1,64 @@
+@import '../styles/common';
+
+h3{
+  padding-bottom: 20px;
+}
+
+.contacts-wrapper,
+.contacts-input-text,
+.contacts-btn {
+  margin-bottom: 20px;  }
+
+.contacts-input {
+  border: 1px solid $main-bg-color;
+  border-radius: 5px; }
+.contacts-input:focus {
+  border: 1px solid #FFA500;
+  outline: none; }
+
+.contacts-input-text textarea {
+  width: 90%;
+  padding:10px;}
+
+.contacts-input-name,
+.contacts-input-mail {
+  display: inline-block;
+  width: 100%;}
+.contacts-input-name input,
+.contacts-input-mail input {
+  width: 90%;
+  height: 45px;
+  padding:10px;}
+
+.contacts-btn {
+  font-size: 18px;
+  width: 90%;
+  box-sizing: border-box;
+  background: $font-color;
+  color: $main-bg-color;
+  padding: 8px 40px;
+  border-radius: 5px;
+  border: 1px solid $main-bg-color;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+    background: $main-bg-color;
+    color: $font-color;
+  }
+}
+
+.location{
+  line-height: 34px;
+}
+.wrapper-logo-img{
+  margin-bottom: 40px;
+  span{
+    font-size:20px;
+  }
+}
+.logo-img{
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+
+}

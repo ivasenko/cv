@@ -1,0 +1,18 @@
+@import '../../styles/common';
+
+.row{
+  margin-top: 30%;
+}
+.start-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glyphicon-arrow-left{
+  font-size: 130px;
+  color: $main-bg-color;
+  margin-right: 25px;
+}
+.detail-text{
+  font-size: 30px;
+}

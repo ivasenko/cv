@@ -1,0 +1,12 @@
+@import '../../styles/common';
+
+.detail-heading, .detail-description{
+  text-align: center;
+}
+.detail-img, .detail-description{
+  margin-bottom: 40px;
+}
+.detail-heading{
+  color: $main-bg-color;
+  font-weight: 600;
+}

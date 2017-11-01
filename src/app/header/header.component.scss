@@ -1,0 +1,65 @@
+@import '../styles/common';
+@import '../styles/circle';
+
+.navbar{
+  background: $main-bg-color;
+  border-color: $main-bg-color;
+  padding: 5px;
+}
+.logo {
+  @extend .circle;
+  background: $circle-color;
+  font-weight: 700; }
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 60px;
+  line-height: 70px;
+  color: $font-color; }
+
+.other-i {
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+.nav-item{
+  list-style-type: none;
+  margin-right: 15px;
+}
+.nav-link{
+  @extend .circle;
+  margin-left: 15px;
+  font-size: 18px;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+
+.nav-link{
+  @extend .circle;
+  background: transparent;
+  color: $font-color !important;
+  &:hover{
+    background: $circle-color;
+    transition: .3s;
+  }
+}
+
+.navbar-default .navbar-nav > .active > a{
+  @extend .circle;
+  background: $circle-color;
+  color: $font-color;
+}
+
+.icon-bar{
+  background: $font-color !important;
+}
+.navbar-toggle{
+  border-color: $font-color;
+  &:hover{
+    background: $circle-color;
+  }
+}
